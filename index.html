@@ -36,7 +36,7 @@
       
       #nav li a {
       display:block;
-      padding: 40;
+      padding: 50;
       text-decoration:none;
       width:200px; /* this is the width of the menu items */
       line-height:35px; /* this is the hieght of the menu items */
@@ -94,22 +94,18 @@
                 <li><a href="#about-section" class="nav-link">About</a></li>
                 <li><a href="#services-section" class="nav-link">Services</a></li>
                 <li><a href="#contact-section" class="nav-link">Contact</a></li>
-                <ul id="nav">
-                <li><a href="#">Main Item 2</a>
-                  <ul>
-                  <li><a href="#">Sub Item</a></li>
-                  <li><a href="#">Sub Item</a></li>
-                  <li><a href="#">SUB SUB LIST »</a>
-                  <ul>
-                  <li><a href="#">Sub Sub Item 1</a>
-                  <li><a href="#">Sub Sub Item 2</a>
-                  </ul>
-                  </li>
-                  </ul>
-                  </li>
-                
-              </ul>
-            </nav>
+        
+                <div class="dropdown">
+                  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    ACCOUNT
+                  </button>
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                    <button class="dropdown-item" type="button">Log In</button>
+                    <button class="dropdown-item" type="button">Sign Up</button>
+                    
+                  </div>
+                </div>
+
 
 
             <a href="#" class="d-inline-block d-lg-none site-menu-toggle js-menu-toggle float-right"><span class="icon-menu h3"></span></a>
